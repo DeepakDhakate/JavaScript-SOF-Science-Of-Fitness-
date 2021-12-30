@@ -1,0 +1,29 @@
+<html>
+	<head>
+			<title>Registration</title>
+			<meta charset="utf-8">
+			<link rel="stylesheet" type="text/css" href="registration.css">
+	</head>
+	<body>
+		
+		<div class="signup">
+			<form action="registration.php" method="POST">
+				<h1 style="color: black";>Registration  </h1>
+
+				<input type="text" name="username" placeholder="user name" required>
+				<br><br>
+				<input type="text" name="phoneno" placeholder="phone no" required>
+				<br><br>
+				<input type="text" name="emailid" placeholder="email id" required>
+				<br><br>
+				<input type="text" name="password" placeholder="password" required>
+				<br><br>
+				<input type="text" name="conformpassword" placeholder="conform password" required>
+				
+				<a href=""><input type="submit" class="submit" name="submit"></a><br>
+				
+				<div id="msg"></div>
+			</form>
+		</div>
+	</body>
+</html>

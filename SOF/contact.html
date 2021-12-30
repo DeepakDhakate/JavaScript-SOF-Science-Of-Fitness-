@@ -1,0 +1,135 @@
+<html>
+	<head>
+			<title>HOME PAGE </title>
+			<meta charset="utf-8">
+			<link rel="stylesheet" type="text/css" href="contactus_style.css">
+			<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+	</head>
+	<body>
+		<header>
+			<a href="#" class="logo">SOF</a>
+			<div class="menubar"></div>
+			<nav>
+				<ul>
+					<li><a href="home.html" class="active">HOME</a></li>
+
+					<li><a href="services.html">SERVICES</a></li>
+
+					<li><a href="r.html">REGISTER DATA</a></li>
+
+					<li><a href="aboutus.html">ABOUT US</a></li>
+
+					<li><a href="contact.html">CONTACT US</a></li>
+
+					<li><a href="adminlogin.html">LOG IN</a></li>
+
+
+				</ul>
+			</nav>
+			<div class="clearfix">
+				
+			</div>
+		</header>
+		<script
+  src="https://code.jquery.com/jquery-3.3.1.js"
+  integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+  crossorigin="anonymous"></script>
+  <script type="text/javascript">
+  	$(document).ready(function () {
+  		$('.menubar').click(function(){
+  			$('.menubar').toggleClass('active')
+  			$('.nav').toggleClass('active')
+  			})
+  		}
+  	})
+  </script>
+
+
+
+
+
+  			<!-----------Contact Us---------------->
+  		
+
+  			<div class="contact">
+				<form action="contactus.php" method="POST">
+
+					<h1 style="color: white">Contact Us</h1>
+					
+					<input type="text" name="name" class="contact-form-text" placeholder="Your Name " required>
+					<br>
+
+					<input type="text" name="email" class="contact-form-text" placeholder="Your Email id" required>
+					<br>
+					<input type="text" name="phone" class="contact-form-text" placeholder="Your Phone" required>
+					<br>
+
+					<textarea type="text" name="msg" class="contact-form-text" placeholder="Message" required ></textarea>
+					
+					<br><br>
+					<a href=""><input type="submit" class="contact-form-btn" name="submit"></a><br>
+					
+				
+				</form>
+
+			</div>
+
+
+
+
+
+  				<footer class="footer-distributed">
+
+			<div class="footer-left">
+
+				<h3>SOF<span><br>(Science of Fitness)</span></h3>
+
+				
+
+				<p class="footer-company-name"></p>
+			</div>
+
+			<div class="footer-center">
+
+				<div>
+					<i class="fa fa-map-marker"></i>
+					<p><span>21 Revolution Street</span> Maharastra, India</p>
+				</div>
+
+				<div>
+					<i class="fa fa-phone"></i>
+					<p>+91 1234567890</p>
+				</div>
+
+				<div>
+					<i class="fa fa-envelope"></i>
+					<p><a href="mailto:support@company.com">sof@company.com</a></p>
+				</div>
+
+			</div>
+
+			<div class="footer-right">
+
+				<p class="footer-company-about">
+					<span>About the company</span>
+					gym management software provides lots of functions such data entry of customer, keeping records of all the things about customer’s fees ,plan and physical fitness which helps to provide good quality of services to customer from  Gym managers.</p>
+
+				<div class="footer-icons">
+
+					<a href="#"><i class="fa fa-facebook"></i></a>
+					<a href="#"><i class="fa fa-twitter"></i></a>
+					<a href="#"><i class="fa fa-linkedin"></i></a>
+					<a href="#"><i class="fa fa-github"></i></a>
+
+				</div>
+
+			</div>
+
+		</footer>			
+			
+
+
+
+ 			
+	</body>
+</html>

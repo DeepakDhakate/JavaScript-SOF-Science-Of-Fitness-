@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head><title></title>
+	<link rel="stylesheet" type="text/css" href="adminlogin_style.css">
+<script>
+function Result()
+{
+var user=document.form1.userid.value;
+var pass=document.form1.pass.value;
+
+if(user=="admin" && pass=="123@admin")
+{
+document.form1.submit.value="Welcome";
+}
+
+else
+{
+document.form1.submit.value="Invalid username or password";
+}
+}
+</script>
+
+</head>
+
+<body>
+			<div class="signup">
+			<form name="form1" action="admin.html">
+				<h1 style="color: black";>Admin Login  </h1>
+
+				<input type="text" name="userid" placeholder="Your ID" required>
+				<br><br>
+				<input type="text" name="pass" placeholder="Your Password" required>
+				<br><br>
+				
+				
+
+				<a href="admin.html"><input type="submit" class="submit" name="submit" onclick="Result()"></a><br>
+				
+				<div id="msg"></div>
+			</form>
+		</div>
+
+
+
+
+</form>
+</body>
+</html>
